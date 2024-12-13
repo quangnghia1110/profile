@@ -5,8 +5,7 @@ import Marquee from "react-fast-marquee";
 
 const Skills = () => {
   return (
-    <div id="skills" className="relative z-50 my-12 lg:my-24">
-      {/* Section Header */}
+    <div id="skills" className="relative z-50 my-12 lg:my-24" style={{marginTop: '-120px'}}>
       <div className="sticky top-10 mb-8">
         <div className="w-[80px] h-[80px] bg-pink-500 rounded-full absolute -top-3 left-0 translate-x-1/2 filter blur-3xl opacity-30"></div>
         <div className="flex items-center justify-start relative">
@@ -17,7 +16,6 @@ const Skills = () => {
         </div>
       </div>
 
-      {/* Marquee Section */}
       <Marquee
         gradient={false}
         speed={60}

@@ -13,13 +13,13 @@ export const projectsData = [
       backend: ["Spring Boot", "Spring Security", "JPA", "WebSocket", "MySQL"],
       services: ["Cloudinary", "Google API"],
     },
-    features: `This platform enables students to ask questions, discuss topics, and receive consultations from the school. It includes role-based access where admins manage the system, advisors handle tasks within their departments, and users can ask questions or schedule consultations. Additional features include real-time messaging, consultation scheduling using WebSocket, user authentication, and profile management.`
+    features: `A platform for students to ask questions, discuss, and receive consultation from the school on various topics such as academics, tuition, extracurricular activities, and research. Role-based access: Admins manage the entire system; advisors and consultants handle tasks within their departments; users can ask questions, schedule consultations, and leave feedback. Functionalities include user authentication, profile management, real-time messaging (WebSocket), question and answer management, consultation scheduling, question forwarding, and reporting/analytics for admins. The system includes features related to questions, answers, posts, consultation schedules, real-time messaging, question forwarding, and general questions.`
   },
   {
     name: "Building an E-commerce Website for Electro Company",
     duration: "3/2024-8/2023",
     teamSize: 2,
-    position: "Back-end Developer",
+    position: "Backend Developer",
     source: {
       code: "https://github.com/quangnghia1110/electro_ecommerce.git",
     },
@@ -28,27 +28,12 @@ export const projectsData = [
       backend: ["Spring Boot", "Spring Security", "JPA", "MySQL", "WebSocket"],
       services: ["PayPal", "Giao Hàng Nhanh"],
     },
-    features: `This e-commerce platform allows users to browse products, add them to a cart, and place orders with secure payments via PayPal. Admins can manage products, orders, and users using a dedicated dashboard. Real-time notifications, delivery tracking with Giao Hàng Nhanh, and data export/import in CSV or PDF formats are also supported.`
-  },
-  {
-    name: "FIMAE - Friend Connection App",
-    duration: "2/2024-5/2024",
-    teamSize: 4,
-    position: "Team Leader, Front-end Developer, Back-end Developer",
-    source: {
-      code: "https://github.com/quangnghia1110/Fimae.git",
-    },
-    technologies: {
-      frontend: ["Java"],
-      backend: ["Spring Boot", "Firebase", "Stringee"],
-    },
-    features: `FIMAE is an Android social networking app that supports messaging, voice, and video calls. It allows users to set up profiles, receive notifications, and manage privacy settings such as reporting or blocking users. Users can also create posts with visibility options (public, private, or friends-only), along with additional features like short-form videos, stories, and content sharing.`,
-    responsibilities: `As the team leader, I managed the team and designed the database. I integrated Firebase for real-time data synchronization and notifications, developed core features such as messaging, calls, privacy settings, and post creation, and enhanced the app with short video and story-sharing capabilities.`,
+    features: `The system includes a variety of functionalities to support both customer-facing and administrative operations. For customers, it offers user authentication (registration, login, password recovery), e-commerce features such as product browsing, cart management, order placement, and PayPal payment integration. Customers can also track deliveries through Giao Hàng Nhanh and manage their orders and personal information. Guests can explore products without an account, and employees can monitor inventory, process orders, track shipments, and provide customer support. For admins, the system allows full management of users, employees, products, categories, orders, and shipments. Additionally, it supports the creation of promotional programs, reporting on performance, and managing payment configurations. This comprehensive feature set ensures a smooth experience for all users, from customers to administrators and employees.`
   },
   {
     name: "Milk Tea E-commerce Website",
     duration: "9/2023-12/2023",
-    teamSize: 10,
+    teamSize: 4,
     position: "Team Leader, Front-end Developer, Back-end Developer",
     source: {
       code: "https://github.com/quangnghia1110/project_java_web.git",
@@ -58,19 +43,5 @@ export const projectsData = [
       backend: ["Spring Boot", "JPA", "Spring Security", "Microsoft SQL Server"],
     },
     features: `This milk tea e-commerce website supports user registration and login with Spring Security. Users can browse products, add them to a shopping cart, and complete orders using VNPay. The admin panel allows for managing categories, products, users, and viewing sales statistics.`
-  },
-  {
-    name: "UTETube - Online Music Video Watching Website",
-    duration: "6/2023-8/2023",
-    teamSize: 1,
-    position: "Front-end Developer, Back-end Developer",
-    source: {
-      code: "https://github.com/quangnghia1110/Nam2HocKyHePolyTube.git",
-    },
-    technologies: {
-      frontend: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-      backend: ["Spring Boot", "Servlet", "Hibernate", "Microsoft SQL Server"],
-    },
-    features: `UTETube is an online platform for watching and interacting with music videos. It features video browsing, search by title or category, video details (thumbnails, view counts, and descriptions), user registration and profile updates, and admin functionalities such as managing users and adding new videos.`
-  },
+  }
 ];
